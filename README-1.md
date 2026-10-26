@@ -46,8 +46,6 @@ The notebook explores multiple classification approaches, including:
 
 ## Selected Results
 
-The following results are reported in the notebook:
-
   --------------------------------------------------------------------------------
   Model            Accuracy    Precision       Recall        F1-score      ROC-AUC
   ------------ ------------ ------------ ------------ --------------- ------------
@@ -75,27 +73,6 @@ accuracy alone should not be used to compare models.
 -   Matplotlib and Seaborn
 -   XGBoost and CatBoost
 
-## Repository Contents
-
--   `Heart_Disease_ANN.ipynb` --- notebook containing the analysis,
-    preprocessing, model training, and evaluation.
-
-The notebook refers to external files named
-`heartDisease_dataset_TP.csv` and `heart_model_all.keras`. To reproduce
-the full workflow, those files may also be required. Add the dataset
-only if its license and source terms permit redistribution.
-
-## How to Run
-
-1.  Download or clone this repository.
-2.  Install the required Python libraries used in the notebook.
-3.  Place the required dataset file in the path expected by the
-    notebook.
-4.  Open `Heart_Disease_ANN.ipynb` in Jupyter Notebook or JupyterLab.
-5.  Run the cells in order.
-
-Exact package versions and a complete dependency file are not provided
-in this repository yet, so the environment may require additional setup.
 
 ## Limitations
 
