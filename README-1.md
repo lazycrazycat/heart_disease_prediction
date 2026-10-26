@@ -46,17 +46,15 @@ The notebook explores multiple classification approaches, including:
 
 ## Selected Results
 
-  --------------------------------------------------------------------------------
-  Model             Accuracy    Precision       Recall        F1-score      ROC-AUC
-  ------------ ------------ ------------ ------------ --------------- ------------
-  Tuned                                                          
+ 
+  Model           |Accuracy    |Precision     |Recall      |F1-score      |ROC-AUC
+  ------------ ------------ ------------ ------------ --------------- ------------                                                         
   Logistic   
-  Regression          0.837        0.808        0.880           0.821        0.921                                                        
+  Regression      |0.837        |0.808        |0.880           |0.821       |0.921                                                        
+ ------------ ------------ ------------ ------------ --------------- ------------     
+  ANN             |0.853	    |0.765	      |0.963	       |0.85	Not reported here
 
-  Artificial             
-  Neural                                                               
-  Network          0.853        0.765        0.963   approximately  0.85    Not listed 
-                                                                            here
+  
   --------------------------------------------------------------------------------
 
 The metrics above are reproduced from the notebook and are not an
